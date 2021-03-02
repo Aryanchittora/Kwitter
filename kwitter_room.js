@@ -1,14 +1,14 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyBYdaoRAjIy0mNCrvKEeysGci5VN8C3j0Q",
-      authDomain: "kwitter-621d2.firebaseapp.com",
-      databaseURL: "https://kwitter-621d2-default-rtdb.firebaseio.com",
-      projectId: "kwitter-621d2",
-      storageBucket: "kwitter-621d2.appspot.com",
-      messagingSenderId: "218986370547",
-      appId: "1:218986370547:web:ec04dd0ce29445b95d6e86"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyBPsI7zqR6S7swTlA_4OHv2KoOOq6QjkPk",
+    authDomain: "kwitter-dfb95.firebaseapp.com",
+    databaseURL: "https://kwitter-dfb95-default-rtdb.firebaseio.com",
+    projectId: "kwitter-dfb95",
+    storageBucket: "kwitter-dfb95.appspot.com",
+    messagingSenderId: "988595751229",
+    appId: "1:988595751229:web:9fcfd57b404f1cdc591d54"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
     user_name = localStorage.getItem("User Name");
     document.getElementById("user_name").innerHTML = "Welcome " + user_name + " !!";
